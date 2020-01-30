@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="test_style.css">
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="test_func.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+</head>
+<body>
+	<div id="headDiv" class="jumbotron jumbotron-fluid">
+		<h2 id="header" class="display-4"> Welcome To the Big MasterMind Game! </h2>
+		<button id="NewGame" class="btn btn-dark" onclick="newGame()">New Game!</button><br>
+		<button id="restart" class="btn btn-link"><a href="file:///C:/Users/Gilad%20Epshtein/Desktop/Udemy/Html/test.html">restart</a></button>
+	</div>
+	<div id="answers_div">
+		<button id="answer1" class="answers btn btn-dark btn-size" onclick="changeColor(1)">*</button>
+		<button id="answer2" class="answers btn btn-dark btn-size" onclick="changeColor(2)">*</button>
+		<button id="answer3" class="answers btn btn-dark btn-size" onclick="changeColor(3)">*</button>
+		<button id="answer4" class="answers btn btn-dark btn-size" onclick="changeColor(4)">*</button>
+		<button id="submit" class="btn btn-primary" type="submit" onclick="submit()">guess</button>
+
+
+	</div>
+	<div id="trysDiv">
+		<h3 id="guessesBadge"><ul>guesses:<ul></h3>
+		<div class="trysDivs" id="try1"><br></div>
+		<div class="trysDivs" id="try2"><br></div>
+		<div class="trysDivs" id="try3"><br></div>
+		<div class="trysDivs" id="try4"><br></div>
+		<div class="trysDivs" id="try5"><br></div>
+		<div class="trysDivs" id="try6"><br></div>
+		<div class="trysDivs" id="try7"><br></div>
+		<div class="trysDivs" id="try8"><br></div>
+		<div class="trysDivs" id="try9"><br></div>
+		<div class="trysDivs" id="try10"><br></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+span {
+	font-size: 40px;
+}
+div {
+	text-align: center;
+}
+h5 {
+	margin-left: :200px;
+	text-align:center;
+}
+.guesses {
+	font-size: 30px;
+}
+.btn-size {
+	hight: 32px;
+	width: 32px;
+}
