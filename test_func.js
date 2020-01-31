@@ -89,7 +89,7 @@ function submit(){
 
 	if (hits == 4)
 		{
-			alert("Victory!")
+			alert("Victory! you are AWSOME!!")
 			return true
 		}
 }
